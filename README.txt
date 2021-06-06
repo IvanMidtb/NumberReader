@@ -3,9 +3,10 @@ Project Description
 Goal: The goal of this project was to create a neural network that could read handwritten numbers between 0-9 and return the appropriate number using a backpropagation deep learning algorithm
 
 How to use: 
-1. Create a folder source named "data" inside the project to hold the images of the numbers
-2. Run IdxReader. This will fill the folder data with 60000 images, this will take a while
-3. Run the main class for a demo of the programs function
+1. Create a folder named "trainingData" and place the images from the MNIST database linked bellow into that folder
+2. Create a folder source named "data" inside the project to hold the images of the numbers
+3. Run IdxReader. This will fill the folder data with 60000 images, this will take a while
+4. Run the main class for a demo of the programs function
 
 Features:
 - My project includes a neural network class, this class creates a directed graph in which nodes or neurons are divided into layer, and each neuron connects to each neuron in the next layer.
