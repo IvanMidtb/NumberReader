@@ -1,0 +1,21 @@
+Ivan Midtbust Heger
+Final Project Design document
+
+Neural network and Deep learning: What number is this?
+
+Part 1:
+convert a 28x28 pixel image into an array of value for every pixel
+	Array size = 28x28
+	Each number stored is the intensity of each pixel. Number from 0-1;
+	Challenge: how to gather pixel values into array
+
+Part 2:
+Create the neural network
+	- 784 (28 x 28) input nodes
+	- s sets of sigmouid neurons
+	- n number of neurons per set
+	- 10 number of output neurons for numbers 0-9
+	- weights stored in a matrix
+
+Part 3:
+Backpropagation
